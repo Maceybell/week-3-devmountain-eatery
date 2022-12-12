@@ -1,0 +1,97 @@
+.banner {
+  height: 380px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in_line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  gap: 40px;
+  width: 70%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: white;
+}
+
+h1 {
+  color: rgb(255, 106, 0);
+  font-size: 35px;
+}
+
+.blue_btn {
+  background-color: rgb(67, 120, 120);
+  height: 40px;
+  width: 110px;
+  border: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.blue_btn:hover {
+  background-color: rgba(15, 128, 128, 0.669);
+}
+
+.recipes {
+  width: 100%;
+}
+
+.recipe_container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.recipe_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+.search_bar{
+    background-color: rgb(245, 191, 153);
+    min-width: 250px;
+    width: 30vw;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+}
+
+.search_bar input{
+    width: 100%;
+    border-radius: 0 30px 30px 0;
+    font-size: 20px;
+}
+
+.search_bar svg{
+    height: 80%
+}
+
+input {
+    height: 45px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none
+}

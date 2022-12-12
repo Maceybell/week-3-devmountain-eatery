@@ -1,0 +1,49 @@
+.card {
+    height: 500px;
+    width: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.55);
+    justify-content: space-between;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  
+  .food_img {
+    width: 380px;
+    height: 325px;
+    margin-bottom: 10px  ;
+  }
+  
+  .food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .name {
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .more_btn {
+    background-color: rgb(15, 128, 128);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 22px;
+  }
+  
+  .more_btn:hover {
+    background-color: rgba(15, 128, 128, 0.585);
+  }
+  

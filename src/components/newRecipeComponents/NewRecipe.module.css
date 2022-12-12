@@ -1,0 +1,95 @@
+.title_recipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input, form textarea{
+    border: 1px solid  rgb(112, 111, 111);
+    border-radius: 3px;
+}
+
+.radio_container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  form input[type=radio]{
+    height: 35px;
+    width: 35px;
+    border:3px;
+  }
+
+  form  {
+    font-size: 20px;;
+  }
+
+  form input:focus {
+    border: 1px solid rgb(255, 98, 0)
+  }
+
+  .recipe_data{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .input_container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .ingredient_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .add_btn{
+    background-color: rgb(255, 106, 0);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+
+  }
+
+  .add_btn:hover {
+    background-color: rgba(255, 68, 0, 0.588);
+  }
+
+  .submit_btn{
+    background-color: rgb(124, 180, 180);
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .submit_btn:hover {
+    background-color: rgba(131, 183, 183, 0.698);
+  }
+
+  form textarea { 
+    font-size: 15px;
+  }
